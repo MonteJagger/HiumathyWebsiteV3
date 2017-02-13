@@ -1,0 +1,207 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+* {
+  box-sizing: border-box;
+}
+
+body, .container {
+  margin: 0;
+}
+
+h1, h2, h3, a, p, li {
+  color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', 'BenchNine', gill sans;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  float: left;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 64px;
+  margin-bottom: 23px;
+  position: fixed;
+}
+
+nav {
+  display: none;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  padding: 26px 18px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+nav li:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.main {
+  background:
+    url(../Images/triangle.png) 50% 50% no-repeat,
+    url(../Images/skyscraper_bg.jpg) no-repeat center center;
+  background-size: contain, cover;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_name {
+  margin: auto;
+  font-family: 'Lato', 'Josefin Sans', gill sans;
+  font-size: 40px;
+  text-shadow: 4px 4px 14px #3c3c3c;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fname h1 {
+  font-weight: 100;
+}
+
+.lname h1 {
+  font-weight: 400;
+}
+
+.fname h1, .lname h1 {
+  text-align: center;
+  margin: auto;
+}
+
+.fname {
+  width: 100%;
+  text-align: center;
+  font-size: 7vw;
+}
+
+.lname {
+  width: 100%;
+  text-align: center;
+}
+
+.supporting {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  padding-top: 100px;
+  height: 100%;
+  /*background-color: grey;*/
+}
+
+.supporting img {
+  display: none;
+}
+
+.supporting h1 {
+  margin: 0 auto;
+  text-align: left;
+  text-transform: lowercase;
+  font-size: 80px;
+  color: black;
+  font-weight: 600;
+}
+
+.supporting p {
+  color: black;
+  text-align: left;
+  text-transform: none;
+  text-align: justify;
+}
+
+/* portfolio */
+.portfolio {
+  margin: 100px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio h1 {
+  color: black;
+  font-size: 40px;
+  width: 100%;
+}
+
+.portfolio-pics {
+  width: 33%;
+  min-width: 220px;
+  margin: auto;
+}
+
+.portfolio-pics img {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  min-width: 220px;
+  width: calc((100% - 20px)/3);
+}
+
+
+
+
+/* social media logo buttons */
+.logo_box {
+  margin: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo_box ul {
+  padding: 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  width: 32%;
+  min-width: 70px;
+  height: 52px;
+  text-transform: none;
+  font-size: 23px;
+  margin: 20px 0;
+  color: black;
+  cursor: pointer;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  text-transform: none;
+}
+
+/*
+.zocial-facebook {
+  background-color: #3B5998;
+  border-radius: 4px;
+}
+
+.zocial-linkedin {
+  background-color: #0077b5;
+  color: white;
+  border-radius: 4px;
+
+}
+
+.zocial-github {
+  color: black;
+}*/
