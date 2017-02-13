@@ -3,6 +3,10 @@
     background-size: 500px, cover;
   }
 
+  .main2 {
+    height: 700px;
+  }
+
   .main-nav {
     background-color: rgba(0, 0, 0, 0.6);
   }
@@ -43,6 +47,10 @@
     background-size: 500px, cover;
   }
 
+  .main2 {
+    height: 700px;
+  }
+
   .main-nav {
     background-color: rgba(0, 0, 0, 0.6);
   }
@@ -76,9 +84,13 @@
   }
 }
 
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1101px) {\
   .main {
     background-size: 500px, cover;
+  }
+
+  .main2 {
+    height: 700px;
   }
 
   .main-nav {

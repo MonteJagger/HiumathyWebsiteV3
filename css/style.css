@@ -119,6 +119,12 @@ nav li:hover {
   text-align: justify;
 }
 
+.main2 {
+  background: url(../Images/family.jpg) no-repeat center center;
+  background-size: cover;
+  height: 350px;
+}
+
 /* portfolio */
 .portfolio {
   margin: 100px 50px;
