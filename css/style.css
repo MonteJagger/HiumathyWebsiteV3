@@ -96,6 +96,8 @@ nav li:hover {
   padding: 50px;
   padding-top: 100px;
   height: 100%;
+  max-width: 1000px;
+  margin: auto;
   /*background-color: grey;*/
 }
 
