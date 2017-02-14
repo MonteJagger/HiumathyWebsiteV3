@@ -7,16 +7,14 @@ module.exports =  function(grunt) {
       dev: {
         options: {
           engine: 'im',
-          size: [{
-            width: 400
-          }, {
-            width: 1200
-          }]
+          size: {
+            width: 100
+          }
         },
 
         files: [{
           expand: true,
-          src: ['*.{png,jpg}'],
+          src: ['selfie-small.{png,jpg}'],
           cwd: 'Images/',
           dest: 'dist/'
         }]
