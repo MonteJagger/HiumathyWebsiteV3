@@ -7,14 +7,16 @@ module.exports =  function(grunt) {
       dev: {
         options: {
           engine: 'im',
-          size: {
+          size: [{
             width: 400
-          }
+          }, {
+            width: 1200
+          }]
         },
 
         files: [{
           expand: true,
-          src: ['portfolio/*.{png,jpg}'],
+          src: ['*.{png,jpg}'],
           cwd: 'Images/',
           dest: 'dist/'
         }]

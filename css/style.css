@@ -49,7 +49,7 @@ nav li:hover {
 
 .main {
   background:
-    url(../Images/triangle.png) 50% 50% no-repeat,
+    url(../Images/triangle-medium.png) 50% 50% no-repeat,
     url(../Images/skyscraper_bg.jpg) no-repeat center center;
   background-size: contain, cover;
   height: 700px;
