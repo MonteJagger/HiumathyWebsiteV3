@@ -93,11 +93,10 @@ nav li:hover {
 .supporting {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
-  padding-top: 100px;
+  padding: 100px 50px;
   height: 100%;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
   /*background-color: grey;*/
 }
 
@@ -129,7 +128,8 @@ nav li:hover {
 
 /* portfolio */
 .portfolio {
-  margin: 100px 50px;
+  margin: 0 50px;
+  padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -213,3 +213,8 @@ nav li:hover {
 .zocial-github {
   color: black;
 }*/
+
+footer {
+  height: 700px;
+  background-color: black;
+}
