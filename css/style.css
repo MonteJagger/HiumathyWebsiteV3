@@ -162,6 +162,7 @@ nav li:hover {
   margin: 0 50px;
   display: flex;
   flex-wrap: wrap;
+  padding: 120px 0;
 }
 
 .logo_box ul {

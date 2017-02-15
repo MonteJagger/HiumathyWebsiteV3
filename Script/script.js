@@ -1,11 +1,10 @@
 $(document).ready(function(){
-	$('.hamburger-icon').on('click',function(){
-		$(this).toggleClass('open');
-	});
 
 
 	$('.hamburger-icon').on('click', function(){
+		$(this).toggleClass('open');
 		$('.mobile-nav').toggleClass('open');
+		$('.mobile-nav li').toggleClass('open');
 	});
 
 	// Nav bar
@@ -41,6 +40,7 @@ $(document).ready(function(){
 
 		$('.hamburger-icon').toggleClass('open');
 		$('.mobile-nav').toggleClass('open');
+		$('.mobile-nav li').toggleClass('open');
 	});
 
 	$('.mnav-about').on('click', function(){
@@ -50,6 +50,7 @@ $(document).ready(function(){
 
 		$('.hamburger-icon').toggleClass('open');
 		$('.mobile-nav').toggleClass('open');
+		$('.mobile-nav li').toggleClass('open');
 	});
 
 	$('.mnav-port').on('click', function(){
@@ -59,6 +60,7 @@ $(document).ready(function(){
 
 		$('.hamburger-icon').toggleClass('open');
 		$('.mobile-nav').toggleClass('open');
+		$('.mobile-nav li').toggleClass('open');
 	});
 
 	$('.mnav-contact').on('click', function(){
@@ -68,5 +70,6 @@ $(document).ready(function(){
 
 		$('.hamburger-icon').toggleClass('open');
 		$('.mobile-nav').toggleClass('open');
+		$('.mobile-nav li').toggleClass('open');
 	});
 });
