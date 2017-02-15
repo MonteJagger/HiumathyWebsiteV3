@@ -27,28 +27,39 @@
   height: 100%;
 }
 
-.mobile-nav li:first-child {
-  text-transform: lowercase;
-  background-color: inherit;
-  height: 64px;
-  padding-top: 24px;
-}
 
 .mobile-nav li {
   background-color: rgb(89, 89, 89);
   list-style: none;
   height: calc((100% - 64px)/4);
   border-bottom: 2px solid rgb(113, 113, 113);
-  margin: 0 auto;
   cursor: pointer;
   opacity: 0;
   transition: opacity .9s ease-in;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile-nav li:first-child {
+  text-transform: lowercase;
+  background-color: inherit;
+  height: 64px;
+  margin: auto;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  padding-top: 24px;
 }
 
 .mobile-nav li.open {
   opacity: 1;
 }
 
-.mobile-nav div {
-  padding: 30px 0 20px 0;
+.mnav {
+  margin: auto;
+}
+
+.mnav div {
+  padding: 10px;
 }

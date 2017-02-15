@@ -7,6 +7,7 @@
     height: 700px;
   }
 
+
   .main-nav {
     background-color: rgba(0, 0, 0, 0.6);
   }
@@ -19,7 +20,7 @@
     width: calc(100% - 140px);
   }
 
-  .hamburger-icon {
+  .hamburger-icon, .mobile-nav {
     display: none;
   }
 
@@ -59,7 +60,7 @@
     display: inline-block;
   }
 
-  .hamburger-icon {
+  .hamburger-icon, .mobile-nav {
     display: none;
   }
 
@@ -101,7 +102,7 @@
     display: inline-block;
   }
 
-  .hamburger-icon {
+  .hamburger-icon, .mobile-nav {
     display: none;
   }
 
