@@ -38,6 +38,12 @@
     margin-right: 25px;
     height: 250px;
   }
+  .portfolio {
+    width: 100%;
+  }
+  .col {
+    margin: 0 auto;
+  }
 }
 
 
@@ -82,6 +88,13 @@
     margin: auto;
     margin-right: 25px;
     height: 250px;
+  }
+
+  .portfolio {
+    width: 100%;
+  }
+  .col {
+    margin: 0 auto;
   }
 }
 
@@ -130,5 +143,12 @@
     margin: auto;
     margin-right: 25px;
     height: 250px;
+  }
+
+  .portfolio {
+    width: 1000px;
+  }
+  .col {
+    margin-left: 20px;
   }
 }

@@ -126,34 +126,34 @@ nav li:hover {
   height: 350px;
 }
 
-/* portfolio */
 .portfolio {
-  margin: 0 50px;
-  padding: 100px 0;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  height: auto;
+}
+.col {
+  width: 306px;
+  margin: 0 auto;
 }
 
 .portfolio h1 {
+  font-size: 55px;
   color: black;
-  font-size: 40px;
   width: 100%;
+  margin: 80px auto;
+  margin-bottom: 40px;
+  text-transform: none;
 }
 
-.portfolio-pics {
-  width: 33%;
-  min-width: 220px;
-  margin: auto;
-}
 
-.portfolio-pics img {
+
+.col img {
+  width: 100%;
+  margin-bottom: 20px;
   display: block;
-  margin: auto;
-  margin-top: 50px;
-  min-width: 220px;
-  width: calc((100% - 20px)/3);
 }
-
 
 
 
@@ -163,6 +163,7 @@ nav li:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 120px 0;
+  flo
 }
 
 .logo_box ul {
