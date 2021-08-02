@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hiumathy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./css/toggle_menu.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400" rel="stylesheet"> <!-- Google Fonts -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script src="Script/script.js"></script>
+</head>
+
+<body id="contact-page">
+    <div class="container">
+    <!-- mobile menu -->
+    <div class='mobile-nav'>
+        <ul>
+          <li>hiumathy.me</li>
+          <li class="mnav-home"><a href="./index.html"><div class="mnav"><div class="iconicstroke-home"></div>Home</div></a></li>
+          <li class="mnav-about"><a href="./about.html"><div class="mnav"><div class="iconicstroke-user"></div>About Me</div></a></li>
+          <li class="mnav-port"><a href="./portfolio.html"><div class="mnav"><div class="iconicstroke-book-alt2"></div>Portfolio</div></a></li>
+          <li class="mnav-contact"><a href="./contact.html"><div class="mnav"><div class="iconicstroke-comment-alt2-stroke"></div>Contact</div></a></li>
+        </ul>
+      </div>
+  
+      <!-- web nav -->
+      <div class="main-nav">
+        <div class="hamburger-icon">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <nav>
+          <ul>
+            <li class="nav-home"><a href="./index.html">home</a></li>
+            <li class="nav-about"><a href="./about.html">about me</a></li>
+            <li class="nav-port"><a href="./portfolio.html">portfolio</a></li>
+              <li class="nav-contact"><a href="./contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+        <div class="text">
+            <h1>Contact</h1>
+        </div>
+        <form action="https://formsubmit.co/mailto:xxdagasmanx@yahoo.com" method="POST" enctype="text/plain">
+            <input type="hidden" name="_subject" value="Someone has contacted you from hiumathy.me">
+            <div class="input">
+                <label for="fname">First name: </label>
+                <br>
+                <input type="text" name="fname" id="fname" required minlength="1">
+            </div>
+            <div class="input"> 
+                <label for="lname">Last name: </label>
+                <br>
+                <input type="text" name="lname" id="lname" required minlength="1">
+            </div>
+            <div class="input">
+                <label class="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" required minlength="6">
+            </div>
+            <div class="input">
+                <label class="comment">Comment: </label>
+                <br>
+                <textarea name="comment" id="comment" required></textarea>
+            </div>
+            <div class="input">
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </div>
+            
+        </form>
+    </div>
+    <footer>
+        <!-- social media buttons -->
+        <div class="logo_box">
+          <ul>
+            <li class='logo'><a  class="zocial-facebook" href="https://www.facebook.com/hiumathy" target="_blank"></a></li>
+            <li class='logo'><a  class="zocial-linkedin" href="https://www.linkedin.com/in/hiumathy" target="_blank"></a></li>
+            <li class='logo'><a class="zocial-github" href="https://github.com/MonteJagger" target="_blank"></a></li>
+          </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

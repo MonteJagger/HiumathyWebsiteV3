@@ -1,5 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-
+@import url(https://weloveiconfonts.com/api/?family=|zocial);
 * {
   box-sizing: border-box;
 }
@@ -8,10 +7,13 @@ body, .container {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
 h1, h2, h3, a, p, li {
   color: white;
   text-align: center;
-  font-family: 'Josefin Sans', 'BenchNine', gill sans;
+  font-family: 'Josefin Sans', 'BenchNine', 'gil sans';
   text-transform: uppercase;
 }
 
@@ -59,7 +61,7 @@ nav li:hover {
 
 .main_name {
   margin: auto;
-  font-family: 'Lato', 'Josefin Sans', gill sans;
+  font-family: 'Lato', 'Josefin Sans', 'gil sans';
   font-size: 40px;
   text-shadow: 4px 4px 14px #3c3c3c;
   display: flex;
@@ -163,10 +165,10 @@ nav li:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 120px 0;
-  flo
 }
 
 .logo_box ul {
+  filter: invert();
   padding: 0;
   text-align: center;
   margin: 0 auto;
@@ -199,24 +201,34 @@ nav li:hover {
   text-transform: none;
 }
 
-/*
-.zocial-facebook {
-  background-color: #3B5998;
-  border-radius: 4px;
-}
-
-.zocial-linkedin {
-  background-color: #0077b5;
-  color: white;
-  border-radius: 4px;
-
-}
-
-.zocial-github {
-  color: black;
-}*/
-
 footer {
-  height: 700px;
-  background-color: black;
+  height: 300px;
+  background-color: #505050;
+}
+
+/* contact page */
+#contact-page  form {
+  margin: 0 5em 4em;
+}
+
+#contact-page h1 {
+  margin: 0;
+  padding: 4em 0 1em 1em;
+  text-align: left;
+  color: black;
+  font-family: 'Josefin Sans', 'BenchNine', 'gil sans';
+  text-transform: uppercase;
+}
+
+label, input {
+  font-family: 'Josefin Sans', 'BenchNine', 'gil sans';
+}
+
+.input {
+  margin-bottom: 1em;
+}
+
+/* portfolio */
+.portfolio {
+  margin-bottom: 20em;
 }

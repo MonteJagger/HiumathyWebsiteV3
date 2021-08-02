@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+@import url(https://weloveiconfonts.com/api/?family=iconicstroke);
 
 /* iconicstroke */
 [class*="iconicstroke-"]:before {
@@ -39,6 +39,8 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-nav li:first-child {
@@ -48,7 +50,6 @@
   margin: auto;
   display: block;
   margin: auto;
-  vertical-align: middle;
   padding-top: 24px;
 }
 
